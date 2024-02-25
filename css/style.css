@@ -1,0 +1,78 @@
+body {
+   background-color: #021823;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  .najot {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+  }
+  img {
+    margin-top: -500px;
+    animation: image 3s forwards;
+  }
+  .najot__text {
+    margin-top: -200px;
+    animation: najot__text 0.5s linear 1s forwards;
+  }
+  @keyframes image {
+    0% {
+      margin-top: -200px;
+    }
+    50% {
+      margin-top: 100px;
+    }
+    100% {
+      margin-top: 0px;
+    }
+  }
+  @keyframes najot__text {
+    0% {
+      margin-top: -200px;
+      color: white;
+    }
+
+    50% {
+      color: rgb(204, 190, 108);
+    }
+
+    100% {
+      margin-top: 0px;
+      color: rgb(228, 171, 97);
+    }
+  }
+  span:nth-child(11) {
+    animation-delay: 2.1s;
+  }
+  span:nth-child(10) {
+    animation-delay: 2.2s;
+  }
+  span:nth-child(9) {
+    animation-delay: 2.3s;
+  }
+  span:nth-child(8) {
+    animation-delay: 2.4s;
+  }
+  span:nth-child(7) {
+    animation-delay: 2.5s;
+  }
+  span:nth-child(5) {
+    animation-delay: 2.5s;
+  }
+  span:nth-child(4) {
+    animation-delay: 2.4s;
+  }
+  span:nth-child(3) {
+    animation-delay: 2.3s;
+  }
+  span:nth-child(2) {
+    animation-delay: 2.2s;
+  }
+  span:nth-child(1) {
+    animation-delay: 2.1s;
+  }
